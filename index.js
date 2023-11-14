@@ -10,8 +10,9 @@ let highscore = 0;
 let highScoreVal = document.querySelector(".highscore");
 highScoreVal.textContent = highscore;
 let maxScore = 20;
-console.log(randomNumber)
+
 check.addEventListener('click', () => {
+    console.log(randomNumber)
 
     if (randomNumber > guess.value) {
         message.textContent = "📉Too Low"
